@@ -1,0 +1,12 @@
+{
+  "name": "aulanodejs",
+  "version": "1.0.0",
+  "main": "oi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roberta",
+  "license": "ISC",
+  "description": "Projeto exemplo de uso do node.js"
+}
