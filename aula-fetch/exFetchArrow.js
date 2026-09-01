@@ -26,4 +26,4 @@ function consultaDominio(dominio){
     });
 
 }
-consultaDominio("roberta.prof.br");
+consultaDominio("senac.br");
