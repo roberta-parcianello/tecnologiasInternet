@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>📌Minhas Tasks</h1>
+        <!--form de entrada-->
+        <div class="card-inputs">
+            <div class="form-group">
+                <label for="input-texto">Descrição da Tarefa: </label>
+                <input type="text" id="input-texto" placeholder="Ex: Escolher API, definir aplicação, ...">
+            </div>
+            <div class="form-group">
+                <label for="select-prioridade">Prioridade:</label>
+                <select id="select-prioridade">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </div>
+            <button id="btn-adicionar">Adicionar Task</button>
+            <p id="msg-erro" class="erro" aria-live="polite"></p>
+        </div>
+        <section id="lista-tasks" class="grid-lembretes"></section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
