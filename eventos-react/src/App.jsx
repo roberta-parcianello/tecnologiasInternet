@@ -10,7 +10,6 @@ import Sobre from './pages/Sobre.jsx';
 
 
 function App() {
-    const [pagina, setPagina] = useState("inicio");
     return (
         <div>
             <header>
